@@ -4,7 +4,7 @@ Vanishing Gradient is a common problem when increasing the complexity of a model
 dataset. As the model gets deeper, during backpropagation, the gradient decreases with each layer. This results in the weights receiving little,
 or no, updates after each iteration, making it nearly impossible for the model to learn. This problem is called Vanishing Gradient. 
 
-![vanishing_gradient](images\Vasishing_Gradient.png)
+![vanishing_gradient](images/Vasishing_Gradient.png)
 
 # Signal 
 
@@ -27,7 +27,7 @@ Some methods to fix Vanishing Gradient are mentioned in the project:
 - Skip Connection 
 
 \
-![solution](images\Solution.png)
+![solution](images/Solution.png)
 
 # Pipeline 
 
@@ -49,7 +49,7 @@ In this project, I will explore the Vanishing Gradient problem in MLP networks a
 
 - (g) Gradient Normalization: Normalize the gradient during backpropagation to maintain a reasonable gradient value.
 
-![pipeline](images\Pipeline.png)
+![pipeline](images/Pipeline.png)
 
 # Installation
 To run this project, install the required dependencies listed in requirements.txt:
